@@ -7,7 +7,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 // Create multiple instances CSS
 const extractCSS = new ExtractTextPlugin('../css/[name].css');
 const extractLESS = new ExtractTextPlugin({
-  filename: './css/[name].css',
+  filename: '../css/[name].css',
 });
 
 module.exports = {

@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server --debug --watch --hot --port 7878 --host 192.168.1.5",
+    "start": "webpack-dev-server --debug --hot --port 7878 --host 192.168.1.5",
     "build": "webpack --config webpack.config.js"
   },
   "author": "Evgen Averin",
